@@ -4,7 +4,7 @@ import { cn } from "~/lib/utils";
 const Toolbox = () => {
   const selectedColor = "#1e1e1e";
   return (
-    <div className="absolute top-1/4 left-8 w-[186px] shadow-all border border-[hsl(244, 100%, 97%)] rounded-md p-3 flex flex-col gap-4">
+    <div className="absolute z-[4] top-1/4 left-8 w-[186px] shadow-all border border-[hsl(244, 100%, 97%)] rounded-md p-3 flex flex-col gap-4">
       <div>
         <h3 className="text-sm font-normal mb-2 text-[#1b1b1f]">Stroke</h3>
         <div className="flex gap-[10px]">

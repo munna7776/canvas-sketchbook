@@ -5,3 +5,11 @@ export const COLORS = [
     "#1971c2",
     "#f08c00"
 ]
+
+export const MENU_ITEMS = {
+    PENCIL: "PENCIL",
+    ERASER: "ERASER",
+    REDO: "REDO",
+    UNDO: "UNDO",
+    DOWNLOAD: "DOWNLOAD"
+}
